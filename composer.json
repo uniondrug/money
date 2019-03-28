@@ -1,0 +1,29 @@
+{
+  "name": "uniondrug/money",
+  "description": "Uniondrug Money Component for uniondrug/framework",
+  "keywords": [
+    "phalcon",
+    "money",
+    "bcmath"
+  ],
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Uniondrug Dev Team",
+      "email": "dev@uniondrug.cn"
+    }
+  ],
+  "require": {
+    "uniondrug/framework": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Uniondrug\\Money\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
