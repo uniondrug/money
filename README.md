@@ -56,3 +56,16 @@ $money->lessThanOrEqual(Money::create(800));
 echo $money->format(2, '.', '');
 echo "\n";
 ```
+
+结果：
+
+```
+$ php test.php
+CNY 5,000.00
+CNY 5,600.00
+CNY 5,100.00
+CNY 20,400.00
+CNY 6,800.00
+CNY 2,266.67
+2266.67
+```
