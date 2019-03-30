@@ -14,9 +14,6 @@
       "email": "dev@uniondrug.cn"
     }
   ],
-  "require": {
-    "uniondrug/framework": "^1.0"
-  },
   "autoload": {
     "psr-4": {
       "Uniondrug\\Money\\": "src/"
